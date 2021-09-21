@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#editor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+article {
+    margin-left: 50vw;
+    padding: 45px;
+}
+
+@media print {
+    #editor {
+        display: none;
+    }
+
+    article {
+        margin-left: 0;
+    }
+
+    article hr {page-break-after: always;}
+}
