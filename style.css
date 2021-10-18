@@ -10,7 +10,7 @@ html {
     width: 50%;
 }
 
-article {
+#result {
     margin: 0 0 0 50vw;
     padding: 45px;
 }
@@ -20,7 +20,7 @@ article {
         display: none;
     }
 
-    article {
-        margin-left: 0;
+    #result {
+        margin: 0;
     }
 }
