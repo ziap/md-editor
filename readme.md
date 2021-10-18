@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://ziap.github.io/md-notebook">Markdown Notebook</a></h1>
+<h1 align="center"><a href="https://ziap.github.io/md-notebook">Markdown Editor</a></h1>
 <h3 align="center">Simple Markdown and LaTeX editor</h3>
 
 ## Features
