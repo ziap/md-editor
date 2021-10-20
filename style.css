@@ -23,4 +23,9 @@ html {
     #result {
         margin: 0;
     }
+
+    hr {
+        display: none;
+        page-break-after: always;
+    }
 }
