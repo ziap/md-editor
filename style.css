@@ -1,31 +1,32 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 #editor {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50%;
 }
 
 #result {
-    margin: 0 0 0 50vw;
-    padding: 45px;
+  margin: 0 0 0 50vw;
+  padding: 45px;
 }
 
 @media print {
-    #editor {
-        display: none;
-    }
+  #editor {
+    display: none;
+  }
 
-    #result {
-        margin: 0;
-    }
+  #result {
+    margin: 0;
+    padding: 0;
+  }
 
-    hr {
-        display: none;
-        page-break-after: always;
-    }
+  hr {
+    display: none;
+    page-break-after: always;
+  }
 }
