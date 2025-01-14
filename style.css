@@ -26,7 +26,6 @@ html {
   }
 
   hr {
-    display: none;
     page-break-after: always;
   }
 }
